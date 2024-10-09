@@ -9,5 +9,5 @@ minutos2 = minutos*60               # Pasamos los minutos a segundos
 sect = horas2+minutos2+segundos     # Sumamos todo en segundos
 sect2 = 86400-sect                  # Restamos las 24H a los segundos totales 
 
-print ("El total de segundos pasados desde la ultima medianoche son: ",sect)            # Imprimimos las soluciones
-print ("El total de segundos que quedan para la siguiente medianoche son: ",sect2)      # Imprimimos las soluciones
+print ("El total de segundos pasados desde la ultima medianoche son:",sect)            # Imprimimos las soluciones
+print ("El total de segundos que quedan para la siguiente medianoche son:",sect2)      # Imprimimos las soluciones
